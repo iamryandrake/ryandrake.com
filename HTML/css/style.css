@@ -805,6 +805,60 @@
 		margin-bottom: 6px;
 	}
 
+	/* Photography
+	--------------------------------------*/
+
+	.photo-item {
+		-webkit-transition-delay: 0s;
+	  transition-delay: 0s;
+	}
+
+	.photo-content {
+	  position: relative;
+	  z-index: 100;
+	  max-width: 800px;
+	  margin: 0 auto;
+}
+
+.photo-title {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0.75em 0;
+  color: #9d9d9d;
+}
+
+.photo-details {
+  position: absolute;
+  top: 0;
+  margin: 0 0 0 1em;
+  z-index: 1000;
+  left: 100%;
+  width: 40%;
+}
+
+.photo-content img {
+  width: 75%;
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.photo-item ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.photo-details .fa {
+  color: #4F4E4E;
+  margin-right: 5px;
+}
+
+.fa + span {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
 	/* Portfolio
 	--------------------------------------*/
 
