@@ -1,12 +1,12 @@
 /* -----------------------------------------------------------------------------
-	Jestem v1.00  - ORANGE COLOR 
+	Jestem v1.00  - ORANGE COLOR
 ------------------------------------------------------------------------------- */
 
-	.text-primary, 
+	.text-primary,
 	a:hover, a:focus,
 	.nav-caption > span,
 	.tweet_list > li:before {
-		color: #f19736;
+		color: #F2622C;
 	}
 
 	.pace,
@@ -17,7 +17,7 @@
 	.btn-black.active,
 	.nav-pills > li > a:hover, .nav-pills > li > a:focus, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
 	.resume-box:hover .title-bar-hover {
-		border-color: #f19736;
+		border-color: #F2622C;
 	}
 
 	.bg-primary,
@@ -27,10 +27,10 @@
 	.te-primary:before,
 	.progress-bar-primary,
 	.icon-primary.icon-filled,
-	.btn-black.active:hover, 
+	.btn-black.active:hover,
 	.sep,
 	.owl-theme .owl-controls .owl-page.active span,
 	.owl-theme .owl-controls.clickable .owl-page:hover span,
 	.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-		background-color: #f19736;
+		background-color: #F2622C;
 	}
