@@ -893,14 +893,6 @@
 		width: 50%;
 	}
 
-	.portfolio-item .item-photo {
-		opacity: 0.4;
-		-webkit-transition: all 0.3s ease-in-out 0.4s;
-	    -moz-transition: all 0.3s ease-in-out 0.4s;
-	    -o-transition: all 0.3s ease-in-out 0.4s;
-    	transition: all 0.3s ease-in-out 0.4s;
-	}
-
 	.portfolio-item:hover .item-photo {
 		opacity: 1;
 	}
