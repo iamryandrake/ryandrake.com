@@ -2544,7 +2544,8 @@
 	/* --- 9.  ZONE DIET
 	/* ----------------------------------------------------------------------------- */
 
-	.macro-header {
+	.macro-header,
+	.bucket-list-header {
 		font-size: 18px;
 		color: #F2622C;
 	}
