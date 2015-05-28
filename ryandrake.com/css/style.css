@@ -2549,3 +2549,71 @@
 		font-size: 18px;
 		color: #F2622C;
 	}
+
+
+	.link {
+	  background: #fff;
+	  box-shadow: 0 1px 1px rgba(0,0,0,.075);
+	  -webkit-transition: all .2s ease;
+	  transition: all .2s ease;
+	  position: relative;
+	  display: block;
+	  float: left;
+	  overflow: hidden;
+	}
+
+	.link .link-link {
+  position: absolute;
+  top: 40px;
+  opacity: 0;
+  right: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.link .link-color {
+  height: 10px;
+  width: 100%;
+  display: block;
+}
+
+.link .link-inner {
+  padding: 3%;
+}
+
+.link .link-inner .link-main {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 180px;
+}
+
+.link .link-inner .link-main .link-tags {
+  position: relative;
+  right: 0;
+}
+
+.link .link-inner .link-main .link-tags ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link .link-inner .link-main .link-tags ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 .2em 0 0;
+}
+
+.link .link-inner .link-thumb {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 5%;
+  border: 1px solid #e9e8ea;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.link .link-inner .link-thumb {
+  width: 65px;
+  height: 65px;
+}
